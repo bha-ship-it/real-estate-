@@ -1,6 +1,6 @@
-package com.realestate.backend.repository;
+package com.realestate.repository;
 
-import com.realestate.backend.entity.ZoningInformation;
+import com.realestate.entity.ZoningInformation;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ZoningInformationRepository extends JpaRepository<ZoningInformation, Long> {

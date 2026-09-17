@@ -1,17 +1,12 @@
-package com.realestate.backend.service;
+package com.realestate.service;
 
-import com.realestate.backend.entity.ZoningInformation;
+import com.realestate.entity.FloodZone;
 import java.util.List;
 
-public interface ZoningInformationService {
-
-    ZoningInformation saveZoningInformation(ZoningInformation zoningInformation);
-
-    List<ZoningInformation> getAllZoningInformation();
-
-    ZoningInformation getZoningInformationById(Long id);
-
-    ZoningInformation updateZoningInformation(Long id, ZoningInformation zoningInformation);
-
-    void deleteZoningInformation(Long id);
+public interface FloodZoneService {
+    FloodZone saveFloodZone(FloodZone floodZone);
+    List<FloodZone> getAllFloodZones();
+    FloodZone getFloodZoneById(Long id);
+    FloodZone updateFloodZone(Long id, FloodZone floodZone);
+    void deleteFloodZone(Long id);
 }

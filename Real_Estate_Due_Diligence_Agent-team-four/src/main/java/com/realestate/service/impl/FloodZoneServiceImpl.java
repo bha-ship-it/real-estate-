@@ -1,8 +1,8 @@
-package com.realestate.backend.service.impl;
+package com.realestate.service.impl;
 
-import com.realestate.backend.entity.FloodZone;
-import com.realestate.backend.repository.FloodZoneRepository;
-import com.realestate.backend.service.FloodZoneService;
+import com.realestate.entity.FloodZone;
+import com.realestate.repository.FloodZoneRepository;
+import com.realestate.service.FloodZoneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

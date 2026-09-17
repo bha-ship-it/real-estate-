@@ -1,8 +1,8 @@
-package com.realestate.backend.service.impl;
+package com.realestate.service.impl;
 
-import com.realestate.backend.entity.ZoningInformation;
-import com.realestate.backend.repository.ZoningInformationRepository;
-import com.realestate.backend.service.ZoningInformationService;
+import com.realestate.entity.ZoningInformation;
+import com.realestate.repository.ZoningInformationRepository;
+import com.realestate.service.ZoningInformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
-package com.realestate.backend.controller;
+package com.realestate.controller;
 
-import com.realestate.backend.entity.ZoningInformation;
-import com.realestate.backend.service.ZoningInformationService;
+import com.realestate.entity.ZoningInformation;
+import com.realestate.service.ZoningInformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

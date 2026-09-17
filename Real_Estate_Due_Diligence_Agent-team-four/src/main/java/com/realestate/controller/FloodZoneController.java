@@ -1,7 +1,7 @@
-package com.realestate.backend.controller;
+package com.realestate.controller;
 
-import com.realestate.backend.entity.FloodZone;
-import com.realestate.backend.service.FloodZoneService;
+import com.realestate.entity.FloodZone;
+import com.realestate.service.FloodZoneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.realestate.backend.entity;
+package com.realestate.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
