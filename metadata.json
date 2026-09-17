@@ -1,0 +1,6 @@
+{
+  "name": "Real Estate Due Diligence Agent",
+  "description": "Comprehensive real estate due diligence platform for property verification, zoning, flood risk, permits, tax history, and automated risk reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
